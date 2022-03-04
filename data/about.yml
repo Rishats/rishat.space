@@ -1,0 +1,7 @@
+leadership:
+  enable: true
+  item:
+    - logo: /exp/ibecsystems.png
+      title: DevOps Team Leader
+      company: IBEC Systems
+      duration: September 2021 - Present

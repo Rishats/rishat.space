@@ -1,0 +1,304 @@
+banner:
+  title: Hi! I’m Rishat
+
+social:
+  twitter: "rishatdev"
+  linkedin: rishatdeveloper
+  bitbucket: ""
+  github: Rishats
+  gitlab: "Rishats"
+  facebook: "rishatdeveloper"
+  instagram: ""
+  gmail: rihasultanov
+  hotmail: ""
+  telegram: "Rishats"
+  whatsapp: ""
+
+about:
+  enable: true
+  content: DevOps engineer who came from Software Engineering
+  button:
+    btnText: Find out more
+    URL: "/about"
+
+toolsdevops:
+  enable: true
+  groups:
+    taskmanagment:
+      name: "Task Managment"
+      tools:
+        - title: Jira
+          logo: /logos/icons8-jira.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: TeamWork
+          logo: /logos/teamwork.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Trello
+          logo: /logos/icons8-trello.svg
+          description: Details coming soon, contact me if you want to know more
+    monitoring-logging:
+      name: "Monitoring / Logging"
+      tools:
+        - title: Grafana
+          logo: /logos/icons8-grafana.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: ELK
+          logo: /logos/icons8-elasticsearch.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Cachet
+          logo: /logos/cachet.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Zabbix
+          logo: /logos/zabbix.png
+          description: Details coming soon, contact me if you want to know more
+    packacket-managers:
+      name: "Package Managers / Registry"
+      tools:
+        - title: Nexus
+          logo: /logos/nexus.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Gradle
+          logo: /logos/gradle.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Maven
+          logo: /logos/maven.png
+          description: Details coming soon, contact me if you want to know more
+        - title: NPM
+          logo: /logos/icons8-npm.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Yarn
+          logo: /logos/yarn.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Composer
+          logo: /logos/composer.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Helm
+          logo: /logos/helm.png
+          description: Details coming soon, contact me if you want to know more
+        - title: DockerHub
+          logo: /logos/dockerhub.png
+          description: Details coming soon, contact me if you want to know more
+    cloud:
+      name: "Cloud Providers / On Premise - Hypervisors"
+      tools:
+        - title: AWS
+          logo: /logos/icons8-amazon-web-services.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: GCP
+          logo: /logos/icons8-google-cloud.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: OpenStack
+          logo: /logos/icons8-openstack.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: OracleCloud
+          logo: /logos/icons8-oracle.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: DigitalOcean
+          logo: /logos/digitalocean.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Heroku
+          logo: /logos/icons8-heroku.svg
+          description: Details coming soon, contact me if you want to know more
+    chatops:
+      name: "ChatOps"
+      tools:
+        - title: Slack
+          logo: /logos/icons8-slack.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: MicrosoftTeams
+          logo: /logos/icons8-microsoft-teams-2019.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Telegram
+          logo: /logos/icons8-telegram.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Discord
+          logo: /logos/icons8-discord.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: RocketChat
+          logo: /logos/rocketchat.png
+          description: Details coming soon, contact me if you want to know more
+    iac:
+      name: "IaC"
+      tools:
+        - title: Ansible
+          logo: /logos/icons8-ansible.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Terraform
+          logo: /logos/icons8-terraform.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Vagrant
+          logo: /logos/vagrant.png
+          description: Details coming soon, contact me if you want to know more
+    containers:
+      name: "Containers / Orchestration"
+      tools:
+        - title: Docker
+          logo: /logos/icons8-docker.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: K8S
+          logo: /logos/icons8-kubernetes.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: K3S
+          logo: /logos/k3s.png
+          description: Details coming soon, contact me if you want to know more
+        - title: DockerSwarm
+          logo: /logos/dockerswarm.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Minikube
+          logo: /logos/minikube.png
+          description: Details coming soon, contact me if you want to know more
+    db:
+      name: "Databases"
+      tools:
+        - title: MySQL
+          logo: /logos/icons8-mysql.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: PostgreSQL
+          logo: /logos/icons8-postgresql.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: MongoDB
+          logo: /logos/mongodb.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Redis
+          logo: /logos/icons8-redis.svg
+          description: Details coming soon, contact me if you want to know more
+    ci/cd:
+      name: "CI/CD"
+      tools:
+        - title: GitLab
+          logo: /logos/icons8-gitlab.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: GitHub
+          logo: /logos/icons8-github.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: TravisCI
+          logo: /logos/icons8-travis-ci.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Jenkins
+          logo: /logos/icons8-jenkins.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: BitBucket
+          logo: /logos/icons8-bitbucket.svg
+          description: Details coming soon, contact me if you want to know more
+    devsecops:
+      name: "Security / DevSecOps"
+      tools:
+        - title: SonarQube
+          logo: /logos/sonarqube.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Maltego
+          logo: /logos/maltego.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Acunetix
+          logo: /logos/acunetix.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Clair
+          logo: /logos/clair.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Nmap
+          logo: /logos/nmap.png
+          description: Details coming soon, contact me if you want to know more
+
+
+development:
+  enable: true
+  groups:
+    frontend:
+      name: "Frontend"
+      tools:
+        - title: JavaScript
+          logo: /logos/javascript.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: NuxtJS
+          logo: /logos/nuxt.png
+          description: Details coming soon, contact me if you want to know more
+        - title: VueJS
+          logo: /logos/icons8-vue-js.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: NodeJS
+          logo: /logos/node-js.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Jquery
+          logo: /logos/icons8-jquery.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: HTML
+          logo: /logos/icons8-html.png
+          description: Details coming soon, contact me if you want to know more
+        - title: CSS
+          logo: /logos/icons8-css.png
+          description: Details coming soon, contact me if you want to know more
+        - title: Bootstrap
+          logo: /logos/icons8-bootstrap.svg
+          description: Details coming soon, contact me if you want to know more
+        
+    backend:
+      name: "Backend"
+      tools:
+        - title: Golang
+          logo: /logos/icons8-golang.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Fiber
+          logo: /logos/go-fiber.png
+          description: Details coming soon, contact me if you want to know more
+        - title: GoHugo
+          logo: /logos/gohugo.png
+          description: Details coming soon, contact me if you want to know more
+        - title: PHP
+          logo: /logos/icons8-php.svg
+          description: Details coming soon, contact me if you want to know more
+        - title: Laravel
+          logo: /logos/icons8-laravel.png
+          description: Details coming soon, contact me if you want to know more
+
+
+experience:
+  enable: true
+  item:
+    - logo: /exp/ibecsystems.png
+      title: Software Engineer
+      company: IBEC Systems
+      duration: May 2017 - December 2019
+    - logo: /exp/ibecsystems.png
+      title: Software Engineer with DevOps skills
+      company: IBEC Systems
+      duration: December 2019 - Present
+
+hackathons:
+  enable: false
+  item:
+    - title: Hack Cambridge 2019
+      description: Climate change simulator
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
+      url: none
+
+certifications:
+  enable: true
+  item:
+    - title: Programming with Google Go Specialization
+      image: /logos/icons8-coursera.svg
+      url: https://www.coursera.org/account/accomplishments/specialization/certificate/3X6X9AF84W8G
+    - title: "LPIC-1: System Administrator Exam 101 (v5 Objectives)"
+      image: /logos/cloudguru.jpg
+      url: https://verify.acloud.guru/FD487F118452
+    - title: ""
+      image: /logos/stepik.png
+      url: https://verify.acloud.guru/FD487F118452
+
+awards:
+  enable: false
+  item:
+    - title: Phase 1 Winner
+      event: GNOME Community Engagement Challenge
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701167/CEChallenge-P1Winner2_iyjvyu.png
+
+education:
+  enable: true
+  item:
+    - title: BSc Software Engineering
+      year: 2018 - 2021
+      academy: Razzakov University
+      image: /logos/kgtu.png
+    - title: Software Engineering
+      year: 2015 - 2018
+      academy: IUCA University
+      image: /logos/iuca.png
