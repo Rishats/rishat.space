@@ -1,0 +1,5 @@
+*
+!.gitignore
+!service-account-for-cd.sh
+!deployment.yaml
+!prometheus.md

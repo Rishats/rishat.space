@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+  app:
+    container_name: rishat.space
+    image: skeletondocker/rishat.space:latest
+    restart: unless-stopped
+    ports:
+    - "127.0.0.1:3000:80"
