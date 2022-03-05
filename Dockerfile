@@ -7,7 +7,7 @@ ARG HUGO_ARCH="64bit"
 ENV HUGO_ARCH=${HUGO_ARCH}
 
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-${HUGO_ARCH}.tar.gz /tmp/
-RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /usr/local/bin/
+RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-${HUGO_ARCH}.tar.gz -C /usr/local/bin/
 
 # install syntax highlighting
 RUN apt-get update
