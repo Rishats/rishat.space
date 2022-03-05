@@ -63,7 +63,7 @@ jobs:
           build-args: |
             HUGO_ARCH=ARM64
           push: ${{ github.event_name != 'pull_request' }}
-          tags: arm64_${{ steps.meta.outputs.tags }}
+          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
       -  
@@ -71,7 +71,7 @@ jobs:
        uses: steebchen/kubectl@v2.0.0
        with: # defaults to latest kubectl binary version
           config: ${{ secrets.KUBE_CONFIG_DATA }}
-          command: set image deployment/rishat-space rishat-space=skeletondocker/rishat.space:arm64_${{ github.sha }} --insecure-skip-tls-verify
+          command: set image deployment/rishat-space rishat-space=skeletondocker/rishat.space:${{ github.sha }} --insecure-skip-tls-verify
           
       - name: verify deployment
         uses: steebchen/kubectl@v2.0.0
