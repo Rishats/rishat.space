@@ -3,3 +3,5 @@
 !service-account-for-cd.sh
 !deployment.yaml
 !prometheus.md
+!certificate.yml
+!ingress.yml

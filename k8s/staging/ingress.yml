@@ -1,0 +1,32 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: rishat-space-server-ingress
+  namespace: rishat-space-staging
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-production-issuer
+    kubernetes.io/ingress.class: nginx
+    kubernetes.io/tls-acme: "true"
+    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+    # If you encounter a redirect loop or are getting a 307 response code 
+    # then you need to force the nginx ingress to connect to the backend using HTTPS.
+    #
+    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
+    
+spec:
+  rules:
+  - host: staging.rishat.space
+    http:
+      paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service: 
+              name: rishat-space-staging-service
+              port:
+                number: 80
+  tls:
+  - hosts:
+    - staging.rishat.space
+    secretName: rishat-space
