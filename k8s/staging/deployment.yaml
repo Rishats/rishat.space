@@ -80,9 +80,7 @@ spec:
         io.kompose.service: rishat-space
     spec:
       containers:
-        - ports:
-            - containerPort: 80
-          image: skeletondocker/rishat.space:v1.0.0
+        - image: skeletondocker/rishat.space:sha-abef103c0ee22ed6b0d4a68e4ee32d62f8fa787d
           name: rishat-space
           resources: {}
       restartPolicy: Always
@@ -93,10 +91,12 @@ kind: Service
 metadata:
   name: rishat-space-staging-service
   namespace: rishat-space-staging
+  labels:
+    io.kompose.service: rishat-space
 spec:
   selector:
-    app: rishat-space
+    io.kompose.service: rishat-space
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
+  - protocol: TCP
+    port: 80
+    targetPort: 80
