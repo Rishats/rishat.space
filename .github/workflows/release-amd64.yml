@@ -1,4 +1,4 @@
-name: tagged-release-production
+name: tagged-release-amd64
 
 on:
   push:
@@ -32,13 +32,3 @@ jobs:
           context: .
           push: true
           tags: skeletondocker/rishat.space:amd64_main
-      -
-        name: Build and push ARM64
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          build-args: |
-            HUGO_ARCH=ARM64
-          push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
