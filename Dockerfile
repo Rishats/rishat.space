@@ -17,7 +17,7 @@ RUN apt-get install -y python3-pygments
 COPY source /source
 RUN hugo --source=/source/ --destination=/public/
 
-FROM nginx:stable-alpine
+FROM nginx:stable-alpine as PRODUCTION
 RUN apk --update add curl bash
 COPY --from=STAGEONE /public/ /usr/share/nginx/html/
 EXPOSE 80 443

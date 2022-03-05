@@ -32,3 +32,4 @@ jobs:
           context: .
           push: true
           tags: skeletondocker/rishat.space:amd64_main
+          target: PRODUCTION
