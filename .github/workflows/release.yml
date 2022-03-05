@@ -52,6 +52,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
+          file: ./Dockerfile.production
           build-args: |
             HUGO_ARCH=ARM64
           push: ${{ github.event_name != 'pull_request' }}
