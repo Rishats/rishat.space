@@ -82,7 +82,7 @@ spec:
       containers:
         - ports:
             - containerPort: 80
-          image: skeletondocker/rishat.space:v1.0.0
+          image: skeletondocker/rishat.space:sha-0575124ce833c0e9edde43eb53765088e3ceb91a
           name: rishat-space
           resources: {}
       restartPolicy: Always
