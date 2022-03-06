@@ -1,10 +1,10 @@
 ---
-date: 2017-10-19T15:26:15Z
-lastmod: 2019-10-26T15:26:15Z
-publishdate: 2018-11-23T15:26:15Z
+date: 2022-03-04T15:26:15Z
+lastmod: 2022-03-06T12:11:15Z
+publishdate: 2022-03-04T15:26:15Z
 author: Rishat Sultanov
 title: Rishat Sultanov' Website
-description: I'm a second year Computer Science student at Durham
+description: DevOps engineer who came from Software Engineering
 images:
 - home-cover.png
 ---
