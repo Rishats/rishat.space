@@ -23,7 +23,7 @@ theme = 'rishat-portfolio'
 #  URL = "https://wiki.rishat.space"
   [[menu.main]]
   name = "CV"
-  URL = "https://cv.rishat.space"
+  URL = "https://rishats.github.io/cv.github.io/"
   [[menu.main]]
   name = "Blog"
   URL = "blog"
